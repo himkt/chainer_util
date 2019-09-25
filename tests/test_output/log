@@ -1,0 +1,82 @@
+[
+    {
+        "main/loss": 1.9919979572296143,
+        "validation/main/loss": 1.9212086200714111,
+        "validation/main/fscore": 0.3237704918032787,
+        "epoch": 1,
+        "iteration": 586,
+        "elapsed_time": 38.541231024995795
+    },
+    {
+        "main/loss": 1.8764110803604126,
+        "validation/main/loss": 1.8670834302902222,
+        "validation/main/fscore": 0.41530054644808745,
+        "epoch": 2,
+        "iteration": 1172,
+        "elapsed_time": 64.53037423899514
+    },
+    {
+        "main/loss": 1.8225654363632202,
+        "validation/main/loss": 1.802505373954773,
+        "validation/main/fscore": 0.4644808743169399,
+        "epoch": 3,
+        "iteration": 1758,
+        "elapsed_time": 91.2484374929918
+    },
+    {
+        "main/loss": 1.7777172327041626,
+        "validation/main/loss": 1.779781460762024,
+        "validation/main/fscore": 0.48633879781420764,
+        "epoch": 4,
+        "iteration": 2343,
+        "elapsed_time": 117.88419965599314
+    },
+    {
+        "main/loss": 1.750432014465332,
+        "validation/main/loss": 1.7462154626846313,
+        "validation/main/fscore": 0.5273224043715847,
+        "epoch": 5,
+        "iteration": 2929,
+        "elapsed_time": 144.83042598298925
+    },
+    {
+        "main/loss": 1.7254881858825684,
+        "validation/main/loss": 1.7424904108047485,
+        "validation/main/fscore": 0.5355191256830601,
+        "epoch": 6,
+        "iteration": 3515,
+        "elapsed_time": 171.5289820219914
+    },
+    {
+        "main/loss": 1.71261465549469,
+        "validation/main/loss": 1.7242927551269531,
+        "validation/main/fscore": 0.5423497267759563,
+        "epoch": 7,
+        "iteration": 4100,
+        "elapsed_time": 199.4029852340027
+    },
+    {
+        "main/loss": 1.692626714706421,
+        "validation/main/loss": 1.7196916341781616,
+        "validation/main/fscore": 0.5573770491803278,
+        "epoch": 8,
+        "iteration": 4686,
+        "elapsed_time": 225.4045329389919
+    },
+    {
+        "main/loss": 1.683475375175476,
+        "validation/main/loss": 1.6991147994995117,
+        "validation/main/fscore": 0.5642076502732241,
+        "epoch": 9,
+        "iteration": 5272,
+        "elapsed_time": 251.86630288699234
+    },
+    {
+        "main/loss": 1.6701902151107788,
+        "validation/main/loss": 1.6991366147994995,
+        "validation/main/fscore": 0.5683060109289617,
+        "epoch": 10,
+        "iteration": 5857,
+        "elapsed_time": 278.16534740899806
+    }
+]
