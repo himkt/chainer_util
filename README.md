@@ -2,7 +2,7 @@
 
 ## Retrieve the best epoch from a log
 
-```
+```python
 from chainer_util import retrieve_best_epoch
 
 
@@ -17,7 +17,7 @@ retrieve_best_epoch({"metric": "validation/main/loss"}, output_dir)
 
 ## Fix random state
 
-```
+```python
 from chainer_util import set_seed
 
 
