@@ -10,7 +10,7 @@ from chainer_util import retrieve_best_epoch
 # Note that Trainer needs to extend chainer.training.logReport
 retrieve_best_epoch({"metric": "validation/main/loss"}, output_dir)
 # -> (24, 0.04) (just an example)
-retrieve_best_epoch({"metric": "validation/main/loss"}, output_dir)
+retrieve_best_epoch({"metric": "validation/main/fscore"}, output_dir)
 # -> (32, 0.87)
 ```
 
