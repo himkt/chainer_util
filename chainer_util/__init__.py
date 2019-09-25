@@ -4,9 +4,6 @@ import operator
 import os
 import random
 
-import chainer
-import numpy
-
 logger = logging.getLogger(__file__)
 
 
@@ -62,6 +59,9 @@ def _prepare_op(metric):
 
 
 def set_seed(seed=31, device=-1):
+    import chainer
+    import numpy
+
     logger.debug(f"Seed value: {seed}")
 
     if chainer.cuda.available and device >= 0:
