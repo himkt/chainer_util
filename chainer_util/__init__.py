@@ -47,7 +47,7 @@ def _argmax_metric(log_file, metric):
 
 
 def _prepare_op(metric):
-    ge_metrics = ["accuracy", "precision", "recall", "fscore"]
+    ge_metrics = ["accuracy", "precision", "recall", "fscore", "f1score", "f1_score"]  # NOQA
     le_metrics = ["loss"]
 
     for ge_metric in ge_metrics:
