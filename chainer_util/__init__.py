@@ -58,13 +58,12 @@ def _prepare_op(metric):
     raise NotImplementedError
 
 
-def set_seed(seed=31, device=-1):
+def set_seed(seed=31):
     import chainer
     import numpy
 
     logger.debug(f"Seed value: {seed}")
-
-    if chainer.cuda.available and device >= 0:
+    if chainer.cuda.available:
         logger.debug("Fix cupy random seed")
         chainer.cuda.cupy.random.seed(seed)
 
